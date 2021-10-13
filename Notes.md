@@ -1,6 +1,5 @@
-## About
+## Saleor
 
-This repository is forked from ONLYOFFICE/Docker-CommunityServer, we have the following modifications are provided
+官方提供的是微服务架构，相对比较复杂。因此，需要进一步研究。
 
-* replace README.md
-* add README-zh.md, CHANGELOG.md, Note.md, License.md, docker-compose.yml,.env, src, .github folder
+官方的 Docker-compose 文件是基于 build 构建，不建议使用，需修正为基于镜像直接运行。  
